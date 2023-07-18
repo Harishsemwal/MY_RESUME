@@ -1,0 +1,320 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Harish Prasad Semwal} \\ \vspace{1pt}
+    \small +917895551828 $|$ \href{mailto:harishsemwal581@gmail.com}{\underline{harishsemwal581@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/harish-semwal-00242120b/}{\underline{https://www.linkedin.com/in/harish-semwal-00242120b/}} \\
+    \href{https://github.com/Harishsemwal}{\underline{https://github.com/Harishsemwal}}
+\end{center}
+
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Graphic Era Hill University}{Dehradun, UK}
+      {Bachelor of Technology in Computer Science Engineering}{July 2021 -- July 2025}
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Responsive Real Estate User Interface} $|$ \emph{HTML, CSS, JavaScript, ReactJS}}{April 2023 -- July 2023}
+      \resumeItemListStart
+        \resumeItem{Developed responsive real estate user interface using React JS, showcasing strong front-end development skills.}
+        \resumeItem{Led the design and implementation of reusable UI components, ensuring consistency and scalability.}
+        \resumeItem{Incorporated responsive design principles, adapting the interface seamlessly across multiple devices.}
+        \resumeItem{Utilized React's state management and conditional rendering for optimal user experience.}
+        \resumeItem{Optimized performance and enhanced interactivity using React's state management and lifecycle methods.}
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {\textbf{Food Court Management System} $|$ \emph{Java, OOP, GUI}}{May 2022 -- August 2022}
+      \resumeItemListStart
+        \resumeItem{Led development of a robust Food Court Management System in Java, overseeing the entire project lifecycle.}
+        \resumeItem{Developed menu management functionality with advanced search and filtering options.}
+        \resumeItem{Implemented order management module for seamless order processing, tracking, and invoice generation.}
+        \resumeItem{Collaborated with team to integrate secure payment gateway for seamless online transactions.}
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {\textbf{Weather Visualization Web Application} $|$ \emph{HTML, CSS, JavaScript, API}}{September 2021 -- March 2022}
+      \resumeItemListStart
+        \resumeItem{Created weather visualization web application using modern web technologies.}
+        \resumeItem{Designed interactive visualizations for intuitive weather data representation.}
+        \resumeItem{Integrated real-time weather APIs for up-to-date information.}
+        \resumeItem{Implemented responsive design for optimal user experience on multiple devices.}
+        \resumeItem{Collaborated with team to deliver visually appealing and functional application.}
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {\textbf{Algorithm Visualization Web Applications} $|$ \emph{HTML, CSS, JavaScript}}{July 2021 -- September 2022}
+      \resumeItemListStart
+        \resumeItem{Collaborated with a team to brainstorm ideas, plan milestones, and allocate tasks effectively.}
+        \resumeItem{Implemented visualizations for sorting, searching, graph algorithms, and data structures.}
+        \resumeItem{Utilized relevant technologies and programming languages for dynamic and user-friendly experience.}
+        \resumeItem{Designed user controls for customization of visualization speed, input sizes, and analysis.}
+        \resumeItem{Collaborated effectively with a team to plan and execute the project.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item{
+        \textbf{Languages}{: Java, C/C++, JavaScript, HTML/CSS} \\
+        \textbf{Frameworks}{: React, Flask, JUnit, WordPress} \\
+        \textbf{Developer Tools}{: Git, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
+        \textbf{Course Work}{: Cloud Computing, Discrete Mathematics, Microprocessor}
+    }
+\end{itemize}
+
+\section{Profiles}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item{
+         \textbf{LeetCode}{: \href{https://leetcode.com/harishsemwal1/}{https://leetcode.com/harishsemwal1/}} \\
+        \textbf{HackerRank}{: \href{https://www.hackerrank.com/harishsemwal581?hr_r=1}{https://www.hackerrank.com/harishsemwal581?hr\_r=1}} \\
+        \textbf{Codeforces}{: \href{https://codeforces.com/profile/Harish_Semwal}{https://codeforces.com/profile/Harish\_Semwal}} \\
+        \textbf{HackerEarth}{: \href{https://www.hackerearth.com/@Harishsemwal2004}{https://www.hackerearth.com/@Harishsemwal2004}} \\
+        \textbf{CodeChef}{: \href{https://www.codechef.com/users/harishsemwal15}{https://www.codechef.com/users/harishsemwal15}} \\
+        \textbf{GeeksforGeeks}{: \href{https://auth.geeksforgeeks.org/user/harishsemwal581}{https://auth.geeksforgeeks.org/user/harishsemwal581}} \\
+        \textbf{Interviewbit}{: \href{https://www.interviewbit.com/profile/harish-semwal}{https://www.interviewbit.com/profile/harish-semwal}}
+    }
+\end{itemize}
+
+\section{Certifications}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item{\textbf{Udemy: The Complete Web Development Bootcamp By Angela Yu} - \href{https://www.udemy.com/certificate/UC-69aad8f3-b9c3-4548-b933-ce3d2f398daf/}{Certificate Link}}
+    \item{\textbf{CoursEra: Machine Learning A Case Study Approach, University of Washington} - \href{https://www.coursera.org/user/40fe3bade50f5ba58b033c67905dbb6a}{Link}}
+\end{itemize}
+
+\end{document}
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Harish Prasad Semwal} \\ \vspace{1pt}
+    \small +917895551828 $|$ \href{mailto:harishsemwal581@gmail.com}{\underline{harishsemwal581@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/harish-semwal-00242120b/}{\underline{https://www.linkedin.com/in/harish-semwal-00242120b/}} \\
+    \href{https://github.com/Harishsemwal}{\underline{https://github.com/Harishsemwal}}
+\end{center}
+
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Graphic Era Hill University}{Dehradun, UK}
+      {Bachelor of Technology in Computer Science Engineering}{July 2021 -- July 2025}
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Responsive Real Estate User Interface} $|$ \emph{HTML, CSS, JavaScript, ReactJS}}{April 2023 -- July 2023}
+      \resumeItemListStart
+        \resumeItem{Developed responsive real estate user interface using React JS, showcasing strong front-end development skills.}
+        \resumeItem{Led the design and implementation of reusable UI components, ensuring consistency and scalability.}
+        \resumeItem{Incorporated responsive design principles, adapting the interface seamlessly across multiple devices.}
+        \resumeItem{Utilized React's state management and conditional rendering for optimal user experience.}
+        \resumeItem{Optimized performance and enhanced interactivity using React's state management and lifecycle methods.}
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {\textbf{Food Court Management System} $|$ \emph{Java, OOP, GUI}}{May 2022 -- August 2022}
+      \resumeItemListStart
+        \resumeItem{Led development of a robust Food Court Management System in Java, overseeing the entire project lifecycle.}
+        \resumeItem{Developed menu management functionality with advanced search and filtering options.}
+        \resumeItem{Implemented order management module for seamless order processing, tracking, and invoice generation.}
+        \resumeItem{Collaborated with team to integrate secure payment gateway for seamless online transactions.}
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {\textbf{Weather Visualization Web Application} $|$ \emph{HTML, CSS, JavaScript, API}}{September 2021 -- March 2022}
+      \resumeItemListStart
+        \resumeItem{Created weather visualization web application using modern web technologies.}
+        \resumeItem{Designed interactive visualizations for intuitive weather data representation.}
+        \resumeItem{Integrated real-time weather APIs for up-to-date information.}
+        \resumeItem{Implemented responsive design for optimal user experience on multiple devices.}
+        \resumeItem{Collaborated with team to deliver visually appealing and functional application.}
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {\textbf{Algorithm Visualization Web Applications} $|$ \emph{HTML, CSS, JavaScript}}{July 2021 -- September 2022}
+      \resumeItemListStart
+        \resumeItem{Collaborated with a team to brainstorm ideas, plan milestones, and allocate tasks effectively.}
+        \resumeItem{Implemented visualizations for sorting, searching, graph algorithms, and data structures.}
+        \resumeItem{Utilized relevant technologies and programming languages for dynamic and user-friendly experience.}
+        \resumeItem{Designed user controls for customization of visualization speed, input sizes, and analysis.}
+        \resumeItem{Collaborated effectively with a team to plan and execute the project.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item{
+        \textbf{Languages}{: Java, C/C++, JavaScript, HTML/CSS} \\
+        \textbf{Frameworks}{: React, Flask, JUnit, WordPress} \\
+        \textbf{Developer Tools}{: Git, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
+        \textbf{Course Work}{: Cloud Computing, Discrete Mathematics, Microprocessor}
+    }
+\end{itemize}
+
+\section{Profiles}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item{
+         \textbf{LeetCode}{: \href{https://leetcode.com/harishsemwal1/}{https://leetcode.com/harishsemwal1/}} \\
+        \textbf{HackerRank}{: \href{https://www.hackerrank.com/harishsemwal581?hr_r=1}{https://www.hackerrank.com/harishsemwal581?hr\_r=1}} \\
+        \textbf{Codeforces}{: \href{https://codeforces.com/profile/Harish_Semwal}{https://codeforces.com/profile/Harish\_Semwal}} \\
+        \textbf{HackerEarth}{: \href{https://www.hackerearth.com/@Harishsemwal2004}{https://www.hackerearth.com/@Harishsemwal2004}} \\
+        \textbf{CodeChef}{: \href{https://www.codechef.com/users/harishsemwal15}{https://www.codechef.com/users/harishsemwal15}} \\
+        \textbf{GeeksforGeeks}{: \href{https://auth.geeksforgeeks.org/user/harishsemwal581}{https://auth.geeksforgeeks.org/user/harishsemwal581}} \\
+        \textbf{Interviewbit}{: \href{https://www.interviewbit.com/profile/harish-semwal}{https://www.interviewbit.com/profile/harish-semwal}}
+    }
+\end{itemize}
+
+\section{Certifications}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item{\textbf{Udemy: The Complete Web Development Bootcamp By Angela Yu} - \href{https://www.udemy.com/certificate/UC-69aad8f3-b9c3-4548-b933-ce3d2f398daf/}{Certificate Link}}
+    \item{\textbf{CoursEra: Machine Learning A Case Study Approach, University of Washington} - \href{https://www.coursera.org/user/40fe3bade50f5ba58b033c67905dbb6a}{Link}}
+\end{itemize}
+
+\end{document}
