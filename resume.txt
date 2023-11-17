@@ -1,0 +1,112 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\usepackage{hyperref} % Add hyperref package for clickable links
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+% Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}} % Fixed the closing brace here
+\newcommand{\ressubheading}[3]{
+  \begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+  	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+  \end{tabular*}\vspace{-8pt}
+}
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\[-0.2cm]
+
+\textbf{Harish Prasad Semwal} \\
+\indent Bhagwanpur, Rajawala,  \\
+\indent Dehradun, Uttarakhand,  \\
+\indent (INDIA) -P.O: 248007 \\
+\indent Mobile No.: \textbf{+917895551828} \\
+\indent Alt Mob No.: \textbf{+917906410196} \\
+\indent Email-id: \textbf{harishsemwal581@gmail.com} \\
+
+\resheading{\textbf{ACADEMIC DETAILS}}\\[\lsep]
+\\
+\indent \rule{6.8in}{0.3pt}\\
+\indent \begin{tabular}{ l @{\hskip 0.15in}l  @{\hskip 0.15in}l  @{\hskip 0.15in}l  @{\hskip 0.15in}}
+  \noindent \textbf{Year} & \textbf{Degree/Exam} & \textbf{Institute} & \textbf{GPA/Marks \%}\\
+  Jul, 2021 - Jul, 2025 & B.Tech in Computer Science & Graphic Era Hill University Dehradun & 8.6/10 \\
+  2020 & Intermediate (U.B.S.E) & S.G.R.R Bhauwala Dehradun & 72.4\% \\
+  2018 & High School (U.B.S.E) & ICSNA Ghuttu Bhilang Tehri Garhwal & 75.4\% \\
+\end{tabular}
+\indent \rule{6.8in}{0.3pt}
+
+\resheading{\textbf{PROFILES}}\\[\lsep]
+\begin{itemize}
+  \item \textbf{} \href{https://leetcode.com/harishsemwal1/}{\textbf{} \href{https://www.linkedin.com/in/harish-semwal-00242120b/}{\textbf{Linkedin}} \textbf{LeetCode}} \textbf{} \href{https://github.com/Harishsemwal}{\textbf{GitHub}} \textbf{} \href{https://auth.geeksforgeeks.org/user/harishsemwal581}{\textbf{GeeksforGeeks}} \textbf{} \href{https://codeforces.com/profile/Harish_Semwal}{\textbf{Codeforces}} \textbf{} \href{https://www.hackerrank.com/profile/harishsemwal581}{\textbf{HakerRank}} \textbf{} \href{https://www.codechef.com/users/harishsemwal15}{\textbf{CodeChef}} \textbf{} \href{https://www.hackerearth.com/@Harishsemwal2004}{\textbf{HakerEarth}}
+\end{itemize} 
+
+\resheading{\textbf{FIELDS OF INTEREST}}\\[\lsep]
+\begin{itemize}
+  \item \noindent Cloud-Based Application Development and Management, Front-End Design Web Development, Software Development, Machine Learning, Dev-Ops, Database Tools and Technology.
+\end{itemize}
+
+\resheading{\textbf{TECHNICAL SKILLS}}\\[\lsep]
+\begin{itemize}
+  \item \textbf{Programming Languages} C, C++, Java, HTML, CSS, JavaScript, Assembly language. \textbf{Database} (MySQL), \textbf{Core knowledge} OPPS, Database Management Systems, Operating System.
+  \item \textbf{Developer Tools} Git, GitHub, Oracle, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Canva, Eclipse.
+  \item \textbf{Course Work} Data Structures of Algorithm, Discrete Mathematics, Cloud Computing, Microprocessor, logic Design, Design Analysis of Algorithm, Computer Organization, Machine Learning.
+\end{itemize}
+
+\resheading{\textbf{PROJECTS}}\\[\lsep]
+\begin{itemize}
+  \item \textbf{Responsive Real Estate User Interface} (Research Project) \\
+  \emph{(Technology Used - HTML, CSS, JavaScript, ReactJS, nodeJs)} \\[-0.6cm]
+  \begin{itemize}\itemsep \isep
+    \item Developed a responsive user interface showcasing strong front-end and back-end development skills.
+    \item Led the design and implementation of reusable UI components, ensuring consistency and scalability.
+    \item Incorporated responsive design principles, adapting the interface seamlessly across multiple devices.
+    \item Utilized React’s state management and conditional rendering for optimal user experience.
+  \end{itemize}
+  \item \textbf{Stock Market Price Prediction} (Technology Used - Python ) \\
+  \emph{(Predictive Pulse: Python ML Stock Predictor)} \\[-0.6cm]
+  \begin{itemize}\itemsep \isep
+    \item Built an end-to-end machine learning project in Python for stock market price prediction.
+    \item Applied advanced neural network techniques using TensorFlow and Keras layers.
+    \item Conducted data prepossessing to optimize the performance of the machine learning model.
+    \item Successfully deployed the model as a real-time web application.
+  \end{itemize}
+  \item \textbf{Loan Approval Prediction} (Technology Used - Python ) \\
+  \emph{Pandas, Matplotlib, Seaborn, KNeighbors, RandomForest, SVM, Logistics Regression } \\[-0.6cm]
+  \begin{itemize}\itemsep \isep
+    \item Built and implemented a predictive loan approval model using Python and machine learning libraries.
+    \item Conducted thorough data prepossessing, including feature engineering and handling missing values.
+    \item Optimized model performance through rigorous evaluation, cross-validation, and parameter tuning.
+    \item Successfully deployed the model as a real-time web application.
+  \end{itemize}
+\end{itemize}
+
+
+\resheading{\textbf{CERTIFICATION}}\\[\lsep]
+\begin{itemize}
+  \item \textbf{Udemy}: The Complete Web Development Bootcamp By Angela Yu \textbf{} \href{https://www.udemy.com/certificate/UC-69aad8f3-b9c3-4548-b933-ce3d2f398daf/}{\textbf{Click Here}}
+  \item \textbf{CoursEra}: Machine Learning A Case Study Approach, University of Washington.\textbf{} \href{https://www.coursera.org/learn/ml-foundations}{\textbf{Click Here}}
+\end{itemize}
+
+\end{document}
